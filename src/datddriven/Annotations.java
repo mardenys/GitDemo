@@ -12,7 +12,11 @@ public class Annotations {
 	@BeforeMethod
 	public void UseridGeneration()
 	{
-		System.out.println("This block executes before each Test");
+		System.out.println("This block executes before each Test2");
+		System.out.println("This block executes before each Test3");
+		System.out.println("This block executes before each Test4");
+		System.out.println("This block executes before each Test5");
+		System.out.println("This block executes before each Test6");
 	}
 	
 	@Test(dataProvider="getData")
