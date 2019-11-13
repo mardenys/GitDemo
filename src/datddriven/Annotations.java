@@ -30,6 +30,7 @@ public class Annotations {
 	{
 		System.out.println("This block executes Before all  Testcases");
 		//delete cookies
+		//delete cookies
 	}
 @AfterTest
 public void Cookiesclose()
